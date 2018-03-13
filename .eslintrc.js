@@ -1,8 +1,9 @@
 module.exports = {
-    root: true,
-    parserOptions: {
-        sourceType: 'module'
-    },
-    extends: 'standard',
-    plugins: ['html']
+  root: true,
+  parser: 'babel-eslint',
+  parserOptions: {
+    sourceType: 'module'
+  },
+  extends: 'standard',
+  plugins: ['html']
 }
